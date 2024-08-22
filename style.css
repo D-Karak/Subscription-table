@@ -5,7 +5,7 @@
 .responsive-flex-container{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    align-items: center;
     width: 80%;
     height: auto;
     margin: auto;
@@ -63,7 +63,7 @@
 }
 @media(max-width:800px){
     .responsive-flex-container{
-        flex-direction: block;
+        display: block;
     }
     .card{
         width: 70vw;

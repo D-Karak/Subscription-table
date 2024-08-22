@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.responsive-flex-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.subscription{
+    height: 85%;
+    width: 30%;
+    font-size: 1.3em;
+}
+.card{
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+.card li{
+    list-style: none;
+    border-bottom: 1px solid grey;
+    padding: 30px;
+    text-align: center;
+}
+.button{
+    width: 60%;
+    padding: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 1em;
+}
+.button:hover{
+    opacity: .9;
+    cursor: pointer;
+}
+.orange{
+    background-color: orange;
+    color: white;
+    font-size: 1.6em;
+}
+.green{
+    background-color: green;
+    color: white;
+    font-size: 1.6em;
+}
+.violet{
+    background-color: violet;
+    color: white;
+    font-size: 1.6em;
+}
+.grey{
+    background-color: grey;
+    color: white;
+}
+.card li:nth-child(2)::before{
+    content: "\20B9";
+}
+@media(max-width:800px){
+    .responsive-flex-container{
+        flex-direction: column;
+    }
+    .card{
+        width: 70vw;
+        margin: 30px;
+    }
+}

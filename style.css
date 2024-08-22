@@ -5,10 +5,7 @@
 .responsive-flex-container{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    width: 80%;
-    height: auto;
-    margin: auto;
+    gap: 20px;
 }
 .subscription{
     height: 85%;
@@ -16,7 +13,6 @@
     font-size: 1.3em;
 }
 .card{
-    display: block;
     margin: 0;
     padding: 0;
     background-color: whitesmoke;
@@ -65,8 +61,8 @@
     .responsive-flex-container{
         flex-direction: column;
     }
-    .card{
-        width: 70vw;
-        margin: 30px;
+    .subscription{
+        width: 80vw;
+        margin: auto;
     }
 }

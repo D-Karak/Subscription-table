@@ -63,7 +63,7 @@
 }
 @media(max-width:800px){
     .responsive-flex-container{
-        flex-direction: column;
+        flex-direction: block;
     }
     .card{
         width: 70vw;
